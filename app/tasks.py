@@ -99,7 +99,7 @@ def event_status_check():
             active=True
         ).update(active=False)
         
-        return ({'success': True, 'message': 'Status updated Successfully, Works'})
+        return ({'success': True, 'message': 'Status updated Successfully. Works'})
     except Exception as e:
         return ({'success': False, 'message': str(e)})
 
